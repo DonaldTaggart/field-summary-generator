@@ -1,0 +1,56 @@
+# ================================
+# General
+# ================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.bak
+.env
+.env.*
+__pycache__/
+*.py[cod]
+venv/
+.idea/
+.vscode/
+node_modules/
+build/
+dist/
+coverage/
+*.zip
+
+# ================================
+# Frontend (React)
+# ================================
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.DS_Store
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ================================
+# Backend (AWS Lambda)
+# ================================
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.venv/
+backend/venv/
+backend/lambda_function.zip
+backend/.env
+backend/.DS_Store
+backend/*.log
+backend/.aws-sam/
+backend/.serverless/
+backend/.terraform/
+backend/requirements.txt.lock
+
+# ================================
+# OS and Editor junk
+# ================================
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
